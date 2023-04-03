@@ -1,7 +1,7 @@
 #pragma once
 #include <exception>
 
-//Не правильного логина при отправке приватного сообщения
+//Не правильный логин при отправке приватного сообщения
 class BadLoginMessage : public std::exception
 {
 public:
